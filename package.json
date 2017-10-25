@@ -1,10 +1,10 @@
 {
-  "name": "God",
-  "descriptipn": "Attempt for a fluid, easy access chat-bot.Closed (alpha) 0.1",
-  "version": "0.1",
-  "main": "God.js",
+  "name": "Test",
+  "description": "Test",
+  "version": "0.0.0",
+  "main": "bot.js",
   "scripts": {
-    "start": "node God.js"
+    "start": "node bot.js"
   },
   "dependencies": {
     "discord.js": "11.1.0",
