@@ -1,1 +1,1 @@
-worker: node God.js
+worker: node god.js
