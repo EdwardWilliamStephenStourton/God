@@ -1,7 +1,7 @@
 {
-  "name": "Test",
-  "descriptipn": "Test",
-  "version": "0.0.0",
+  "name": "God",
+  "descriptipn": "Attempt for a fluid, easy access chat-bot.Closed (alpha) 0.1",
+  "version": "0.1",
   "main": "God.js",
   "scripts": {
     "start": "node God.js"
