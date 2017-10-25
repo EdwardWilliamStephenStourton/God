@@ -8,7 +8,7 @@ function bot_response(var param){
   return 0;
 }
 
-bot.on('ready',()=>{
+bot.on('ready', () => {
   bot.user.setPresence({ game: { name: 'Chat with God ^^', type: 0 } });
 });
 
@@ -17,7 +17,8 @@ bot.on('message', message => {
   var keyword = 'God';
   var user_command = message.content;
   if(user_command.indexOf(keyword)!==-1){
-    bot_response(user_command);
+    //bot_response(user_command);
+    channel.send('I am working fam!');
   }
 });
 
